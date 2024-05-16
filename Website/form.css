@@ -1,0 +1,87 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.feedback-form-wrapper {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.feedback-form-title {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+.feedback-form-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.feedback-form-input {
+  height: 1.7rem;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+
+.feedback-form-textarea {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #fff;
+  height: 5rem;
+  resize: none;
+}
+
+.feedback-form-submitbtn {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  align-self: flex-end;
+  width: 5rem;
+  height: 1.7rem;
+  border-radius: 0.3rem;
+}
+
+.feedback-form-submitbtn:focus {
+  outline: none;
+}
+
+.feedback-form-submitbtn:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.feedback-form-submitbtn:hover {
+  background-color: #fff;
+}
+
+.feedback-form-submitbtn:hover a {  
+  color: #000;
+}
+
+@media only screen and (max-width: 950px) {
+  .feedback-form-wrapper {
+    width: 90%;
+  }
+}
